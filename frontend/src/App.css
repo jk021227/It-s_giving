@@ -152,7 +152,7 @@
 .flip-card {
   background-color: transparent;
   width: 800px; /* Set the width of the card */
-  height: 200px; /* Set the height of the card */
+  height: 230px; /* Set the height of the card */
   perspective: 1000px; 
   margin: 20px auto;
 }
