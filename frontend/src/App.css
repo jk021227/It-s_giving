@@ -11,6 +11,12 @@
   color: rgb(0, 0, 0);
 }
 
+.App h2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  margin: .5em 0 0 0;
+}
+
 .App h1 {
   font-family:'Jersey 20', sans-serif;
   font-size: 8rem;
@@ -22,12 +28,6 @@
   animation: 
   typing 3.5s steps(40, end),
   blink-caret .8s step-end infinite;
-}
-
-.App h2{
-  font-family: 'Indie Flower', cursive;
-  font-size: 2rem;
-  margin: .5em 0 0 0;
 }
 
 /* typing effect */
@@ -76,6 +76,7 @@
   background-color: #840000; 
   border: 3px solid #ff3a3a;
   color: #ff3a3a; 
+  box-shadow: 0 0 15px 5px rgba(255, 58, 58, 0.7); /* Red glow effect */
 }
 
 .Button-box button.motivation {
@@ -94,6 +95,7 @@
   background-color: #005295; 
   border: 3px solid #3fa8ff;
   color: #3fa8ff; 
+  box-shadow: 0 0 15px 5px rgba(63, 168, 255, 0.7);
 }
 
 .Button-box button.love {
@@ -112,6 +114,7 @@
   background-color: #8c008e; 
   border: 3px solid #fb6afd;;
   color: #fb6afd; 
+  box-shadow: 0 0 15px 5px rgba(251, 106, 253, 0.7);
 }
 
 .Button-box button.success {
@@ -125,10 +128,12 @@
   border: 3px dashed #fffb00;
   color: #fffb00; 
 }
+
 .Button-box button.success.active {
   background-color:#6e6c01; 
   border: 3px solid #fffb00;
   color: #fffb00; 
+  box-shadow: 0 0 15px 5px rgba(255, 251, 0, 0.7);
 }
 
 .Button-box button.freedom {
@@ -147,12 +152,28 @@
   background: linear-gradient(to bottom right, #0000ff, #ffffff, #ff0000); 
   border: 3px solid #ff0000; 
   color: #0a007a; 
+  animation: glowAnimation 3s ease-in-out infinite;
+}
+
+@keyframes glowAnimation {
+  0% {
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); 
+  }
+  33.3% {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7); 
+  }
+  66.6% {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.7); 
+  }
+  100% {
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); 
+  }
 }
 
 .flip-card {
   background-color: transparent;
-  width: 800px; /* Set the width of the card */
-  height: 230px; /* Set the height of the card */
+  width: 800px; 
+  height: 230px;
   perspective: 1000px; 
   margin: 20px auto;
 }

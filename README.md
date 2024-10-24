@@ -45,7 +45,7 @@ Open 2 terminals, then navigate to `Its-giving/frontend` in one of them and `Its
    python server.py
    ```
 
-Now open your browser and go to `http://localhost:3000` & have fun! 🎉 P.S. please ignore the warning in the very beginning that goes `play() failed because the user didn't interact with the document first.`, it's because of a default browser policy — but the app still works! 🥺 👉 👈 
+Now open your browser and go to `http://localhost:3000` & have fun! 🎉 Please click on any part of the screen except the buttons to initiate user interaction. Since the music/audios play on hover, if you don't interact with the website beforehand and try to hover the buttons it will throw `ERROR play() failed because the user didn't interact with the document first.`. It's because of a default browser policy — but the app still works! 🥺 👉 👈 
 
 ## 📡 API Integration
 
