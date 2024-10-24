@@ -2,7 +2,7 @@
 
 ## 🌭 Daily Food-For-Thought 
 
-Welcome to **It's Giving...**, your go-to app for daily inspirations and thought-provoking quotes! You can select the mood that you have woken up to day and select what quote you would want to start off your day. ☀️ In this project, I wanted to focus on learning and implementing new design features (frontend) rather than having a complex backend. Here is what I envisioned: 
+Welcome to **It's Giving...**, your go-to app for daily inspirations and thought-provoking quotes! You can select the mood that you have woken up to day and select what quote you would want to start off your day. In this project, I wanted to focus on learning and implementing new design features (frontend) rather than having a complex backend. Here is what I envisioned: 
 
 <img src="https://github.com/jk021227/It-s_giving/blob/main/brainstorming.jpg" width="500">
 
@@ -47,7 +47,7 @@ Open 2 terminals, then navigate to `Its-giving/frontend` in one of them and `Its
    python server.py
    ```
 
-Now open your browser and go to `http://localhost:3000` & have fun! 🎉 Please click on any part of the screen except the buttons to initiate user interaction. Since the music/audios play on hover, if you don't interact with the website beforehand and try to hover the buttons it will throw `ERROR play() failed because the user didn't interact with the document first.`. It's because of a default browser policy — but the app still works! 🥺 👉 👈 
+Now open your browser and go to `http://localhost:3000` & have fun! Please click on any part of the screen except the buttons to initiate user interaction. Since the music/audios play on hover, if you don't interact with the website beforehand and try to hover the buttons it will throw `ERROR play() failed because the user didn't interact with the document first.`. It's because of a default browser policy — but the app still works! 🥺 👉 👈 
 
 ## 📡 API Integration
 
