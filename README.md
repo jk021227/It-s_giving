@@ -4,7 +4,7 @@
 
 Welcome to **It's Giving...**, your go-to app for daily inspirations and thought-provoking quotes! You can select the mood that you have woken up to day and select what quote you would want to start off your day. In this project, I wanted to focus on learning and implementing new design features (frontend) rather than having a complex backend. Here is what I envisioned: 
 
-<img src="https://github.com/jk021227/It-s_giving/blob/main/brainstorming.jpg" width="500">
+<img src="https://github.com/jk021227/It-s_giving/blob/main/brainstorming.jpg" width="850">
 
 ## 🛠️ Getting Started
 
